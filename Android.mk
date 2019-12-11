@@ -1,7 +1,6 @@
-LIBJSON_ROOT := $(call my-dir)
+LOCAL_PATH := $(call my-dir)
 include $(CLEAR_VARS)
 LOCAL_MODULE := libjson
-LOCAL_PATH := $(LIBJSON_ROOT)
 LOCAL_CFLAGS := -Werror -Wno-unused-parameter
 LOCAL_EXPORT_C_INCLUDE_DIRS := $(LOCAL_PATH)
 LOCAL_SRC_FILES := arraylist.c \
